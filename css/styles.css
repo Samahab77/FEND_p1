@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+body{
+        margin-left: 5%;
+        margin-right: 5%;
+}
+
+header{
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    border-bottom: 6px solid #7d97ad;
+        padding-bottom: 0px;
+    color: #2d3c49;
+}
+header img{
+        width: 14%;
+
+}
+.discrebtion{
+  float: right;
+}
+.main-title{
+}
+.subtitle{
+    text-align: right;
+}
+middel img {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    height: 300px;
+    
+}
+section .title{
+    color: #7d97ad;
+        margin-bottom: 2%;
+            margin-top: 3%;
+
+
+}
+section .title h3{
+    
+}
+.cards{
+    display: flex;
+text-align: center;
+justify-content: space-around;
+
+}
+.cards a{
+    color: #2d3c49;
+}
+.cards img{
+    height: 275px;
+    
+     width: 436px;
+         border: none;
+}
+.card2{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+@media screen and (max-width: 400px) {
+    .cards img {
+        height: 176px;
+        width: 296px;
+        border: none;
+        font-size: 10px;
+    }
+ .cards {
+     
+    display: block;
+     text-align: center;
+ }
+ body{
+     margin: none;
+ }
+}
+@media screen and (max-width: 700px) {
+    .cards img {
+        flex-wrap: wrap;
+        height: 247px;
+        width: 477px;
+    border: none;
+    font-size: 
+    }
+    .cards {
+
+        display: block;
+        text-align: center;
+    }
+
+   
+}
+@media screen and (max-width: 890px) {
+    .cards {
+
+        display: flix;
+        text-align: center;
+    }
+
+    .card1 img .card2 img .card3 img{
+        width: 560px;
+        
+        height: 345px;
+
+    }
+}
